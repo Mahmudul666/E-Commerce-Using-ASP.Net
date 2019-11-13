@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE tblSubCategories [
+<!ELEMENTtblSubCategories (SubCategories)>
+<!ELEMENT SubCategories (SubCatID, SubCatNam, MainCatID)>
+<!ELEMENT SubCatID (#PCDATA)>
+<!ELEMENT SubCatNam (#PCDATA)>
+<!ELEMENT MainCatID (#PCDATA)>
+
+
+]>
+
+<tblSubCategories>
+  <SubCategories>
+    <SubCatID>1</SubCatID>
+    <SubCatName>mens</SubCatName>
+    <MainCatID>2</MainCatID>
+  </SubCategories>
+  <SubCategories>
+    <SubCatID>2</SubCatID>
+    <SubCatName>Samsung Edge+</SubCatName>
+    <MainCatID>4</MainCatID>
+  </SubCategories>
+  <SubCategories>
+    <SubCatID>3</SubCatID>
+    <SubCatName>Women</SubCatName>
+    <MainCatID>11</MainCatID>
+  </SubCategories>
+  <SubCategories>
+    <SubCatID>4</SubCatID>
+    <SubCatName>FingerPrint</SubCatName>
+    <MainCatID>12</MainCatID>
+  </SubCategories>
+</tblSubCategories>

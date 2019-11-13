@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+
+<tblSizes>
+  <Sizes>
+    <SizeID>1</SizeID>
+    <SizeName>s</SizeName>
+    <BrandID>1</BrandID>
+    <CategoryID>2</CategoryID>
+    <SubCategoryID>1</SubCategoryID>
+    <GenderID>1</GenderID>
+  </Sizes>
+  <Sizes>
+    <SizeID>2</SizeID>
+    <SizeName>M</SizeName>
+    <BrandID>1</BrandID>
+    <CategoryID>2</CategoryID>
+    <SubCategoryID>1</SubCategoryID>
+    <GenderID>1</GenderID>
+  </Sizes>
+  <Sizes>
+    <SizeID>3</SizeID>
+    <SizeName>E</SizeName>
+    <BrandID>1</BrandID>
+    <CategoryID>4</CategoryID>
+    <SubCategoryID>2</SubCategoryID>
+    <GenderID>3</GenderID>
+  </Sizes>
+  <Sizes>
+    <SizeID>4</SizeID>
+    <SizeName>Edge</SizeName>
+    <BrandID>1</BrandID>
+    <CategoryID>4</CategoryID>
+    <SubCategoryID>2</SubCategoryID>
+    <GenderID>3</GenderID>
+  </Sizes>
+  <Sizes>
+    <SizeID>5</SizeID>
+    <SizeName>L</SizeName>
+    <BrandID>7</BrandID>
+    <CategoryID>11</CategoryID>
+    <SubCategoryID>3</SubCategoryID>
+    <GenderID>2</GenderID>
+  </Sizes>
+  <Sizes>
+    <SizeID>6</SizeID>
+    <SizeName>XXXL</SizeName>
+    <BrandID>1</BrandID>
+    <CategoryID>2</CategoryID>
+    <SubCategoryID>1</SubCategoryID>
+    <GenderID>3</GenderID>
+  </Sizes>
+</tblSizes>

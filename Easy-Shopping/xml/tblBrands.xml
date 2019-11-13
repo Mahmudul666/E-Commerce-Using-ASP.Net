@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<Brands>
+  <BrandsId>
+    <BrandID>1</BrandID>
+    <Name>Adidas  </Name>
+  </BrandsId>
+  <BrandsId>
+    <BrandID>7</BrandID>
+    <Name>Calvin Klein</Name>
+  </BrandsId>
+  <BrandsId>
+    <BrandID>8</BrandID>
+    <Name>chua</Name>
+  </BrandsId>
+  <BrandsId>
+    <BrandID>9</BrandID>
+    <Name>Nicky</Name>
+  </BrandsId>
+  <BrandsId>
+    <BrandID>10</BrandID>
+    <Name />
+  </BrandsId>
+  <BrandsId>
+    <BrandID>11</BrandID>
+    <Name />
+  </BrandsId>
+  <BrandsId>
+    <BrandID>12</BrandID>
+    <Name>sir</Name>
+  </BrandsId>
+</Brands>

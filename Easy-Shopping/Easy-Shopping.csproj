@@ -1,0 +1,476 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C57FD205-1009-4C70-A7FB-9D4A428E2665}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Easy_Shopping</RootNamespace>
+    <AssemblyName>Easy-Shopping</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddBrand.aspx" />
+    <Content Include="AddCategory.aspx" />
+    <Content Include="AddGender.aspx" />
+    <Content Include="AddProduct.aspx" />
+    <Content Include="AddSize.aspx" />
+    <Content Include="AddSubCategory.aspx" />
+    <Content Include="AdminHome.aspx" />
+    <Content Include="App_Data\MyDatabase.mdf" />
+    <Content Include="App_Data\MyDatabase_log.ldf">
+      <DependentUpon>MyDatabase.mdf</DependentUpon>
+    </Content>
+    <Content Include="Cart.aspx" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\Custom-Cs.css" />
+    <Content Include="DEfault.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\Carousel 01.jpg" />
+    <Content Include="Images\Carousel 02.jpg" />
+    <Content Include="Images\Carousel 03.jpg" />
+    <Content Include="Images\noimage.jpg" />
+    <Content Include="Images\ProductImages\10005\WROGN Men Blue Slim Fit Printed Casual Shirt01.jpg" />
+    <Content Include="Images\ProductImages\10005\WROGN Men Blue Slim Fit Printed Casual Shirt02.jpg" />
+    <Content Include="Images\ProductImages\10005\WROGN Men Blue Slim Fit Printed Casual Shirt03.jpg" />
+    <Content Include="Images\ProductImages\10005\WROGN Men Blue Slim Fit Printed Casual Shirt04.jpg" />
+    <Content Include="Images\ProductImages\10005\WROGN Men Blue Slim Fit Printed Casual Shirt05.jpg" />
+    <Content Include="Images\ProductImages\10006\Flying Machine Men Navy Checked Casual Shirt01.jpg" />
+    <Content Include="Images\ProductImages\10006\Flying Machine Men Navy Checked Casual Shirt02.jpg" />
+    <Content Include="Images\ProductImages\10006\Flying Machine Men Navy Checked Casual Shirt03.jpg" />
+    <Content Include="Images\ProductImages\10006\Flying Machine Men Navy Checked Casual Shirt04.jpg" />
+    <Content Include="Images\ProductImages\10006\Flying Machine Men Navy Checked Casual Shirt05.jpg" />
+    <Content Include="Images\ProductImages\10007\Flying Machine Men Blue Regular Fit Washed Casual Shirt01.jpg" />
+    <Content Include="Images\ProductImages\10007\Flying Machine Men Blue Regular Fit Washed Casual Shirt02.jpg" />
+    <Content Include="Images\ProductImages\10007\Flying Machine Men Blue Regular Fit Washed Casual Shirt03.jpg" />
+    <Content Include="Images\ProductImages\10007\Flying Machine Men Blue Regular Fit Washed Casual Shirt04.jpg" />
+    <Content Include="Images\ProductImages\10007\Flying Machine Men Blue Regular Fit Washed Casual Shirt05.jpg" />
+    <Content Include="Images\ProductImages\10008\Flying Machine Men White Printed Casual Shirt01.jpg" />
+    <Content Include="Images\ProductImages\10008\Flying Machine Men White Printed Casual Shirt02.jpg" />
+    <Content Include="Images\ProductImages\10008\Flying Machine Men White Printed Casual Shirt03.jpg" />
+    <Content Include="Images\ProductImages\10008\Flying Machine Men White Printed Casual Shirt04.jpg" />
+    <Content Include="Images\ProductImages\10008\Flying Machine Men White Printed Casual Shirt05.jpg" />
+    <Content Include="Images\ProductImages\10009\Flying Machine Men White Printed Casual Shirt01.jpg" />
+    <Content Include="Images\ProductImages\10009\Flying Machine Men White Printed Casual Shirt02.jpg" />
+    <Content Include="Images\ProductImages\10009\Flying Machine Men White Printed Casual Shirt03.jpg" />
+    <Content Include="Images\ProductImages\10009\Flying Machine Men White Printed Casual Shirt04.jpg" />
+    <Content Include="Images\ProductImages\10009\Flying Machine Men White Printed Casual Shirt05.jpg" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt01.jpg" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt02.jpg" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt03.jpg" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt04.jpg" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt05.jpg" />
+    <Content Include="Images\shirt01.jpg" />
+    <Content Include="Images\tc only 512.png" />
+    <Content Include="Images\Thumb01.jpeg" />
+    <Content Include="Images\Thumb02.jpg" />
+    <Content Include="Images\Thumb03.jpg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\jscharts.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Payment.aspx" />
+    <Content Include="Products.aspx" />
+    <Content Include="ProductView.aspx" />
+    <Content Include="RecoverPassword.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="UserHome.aspx" />
+    <Content Include="Viewbrands.aspx" />
+    <Content Include="ViewProduct.aspx" />
+    <Content Include="ViewReport.aspx" />
+    <Content Include="ViewSellsReport.aspx" />
+    <Content Include="ViewSize.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="XSLT\ViewProductXSLT.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XSLT\SellsReportXSLT.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XSLT\SizeXSLT.xslt" />
+    <Content Include="XSLT\BrandXSLT.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBrand.aspx.cs">
+      <DependentUpon>AddBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddBrand.aspx.designer.cs">
+      <DependentUpon>AddBrand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCategory.aspx.cs">
+      <DependentUpon>AddCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddCategory.aspx.designer.cs">
+      <DependentUpon>AddCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddGender.aspx.cs">
+      <DependentUpon>AddGender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddGender.aspx.designer.cs">
+      <DependentUpon>AddGender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProduct.aspx.cs">
+      <DependentUpon>AddProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProduct.aspx.designer.cs">
+      <DependentUpon>AddProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddSize.aspx.cs">
+      <DependentUpon>AddSize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddSize.aspx.designer.cs">
+      <DependentUpon>AddSize.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddSubCategory.aspx.cs">
+      <DependentUpon>AddSubCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddSubCategory.aspx.designer.cs">
+      <DependentUpon>AddSubCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DEfault.aspx.cs">
+      <DependentUpon>DEfault.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DEfault.aspx.designer.cs">
+      <DependentUpon>DEfault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassRequest.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductView.aspx.cs">
+      <DependentUpon>ProductView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductView.aspx.designer.cs">
+      <DependentUpon>ProductView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecoverPassword.aspx.cs">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecoverPassword.aspx.designer.cs">
+      <DependentUpon>RecoverPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tblBrand.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCategory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGender.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProduct.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductImage.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductSizeQuantity.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchase.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSize.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSubCategory.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="transaction.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.Master.cs">
+      <DependentUpon>User.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.Master.designer.cs">
+      <DependentUpon>User.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome.aspx.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome.aspx.designer.cs">
+      <DependentUpon>UserHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Viewbrands.aspx.cs">
+      <DependentUpon>Viewbrands.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Viewbrands.aspx.designer.cs">
+      <DependentUpon>Viewbrands.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewProduct.aspx.cs">
+      <DependentUpon>ViewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewProduct.aspx.designer.cs">
+      <DependentUpon>ViewProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewReport.aspx.cs">
+      <DependentUpon>ViewReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewReport.aspx.designer.cs">
+      <DependentUpon>ViewReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSellsReport.aspx.cs">
+      <DependentUpon>ViewSellsReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSellsReport.aspx.designer.cs">
+      <DependentUpon>ViewSellsReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSize.aspx.cs">
+      <DependentUpon>ViewSize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSize.aspx.designer.cs">
+      <DependentUpon>ViewSize.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt01" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt02" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt03" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt04" />
+    <Content Include="Images\ProductImages\7\Peter England Men Blue Linen Slim Fit Formal Shirt05" />
+    <Content Include="AdminMaster.Master" />
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <None Include="packages.config" />
+    <Content Include="User.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="xml\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52746</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52746/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

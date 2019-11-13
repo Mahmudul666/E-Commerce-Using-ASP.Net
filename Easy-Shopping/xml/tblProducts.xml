@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE tblProducts [
+<!ELEMENT tblProducts (Products)>
+<!ELEMENT Products (PID, PName, PPrice, PSelPrice, PBrandID, PCategoryID, PSubCatID, PGender, PDescription, PProductDetails, PMaterialCare, FreeDelivery, COD)>
+<!ELEMENT PID (#PCDATA)>
+<!ELEMENT PName (#PCDATA)>
+<!ELEMENT PPrice (#PCDATA)>
+<!ELEMENT PSelPrice (#PCDATA)>
+<!ELEMENT PBrandID (#PCDATA)>
+<!ELEMENT PCategoryID (#PCDATA)>
+<!ELEMENT PSubCatID (#PCDATA)>
+<!ELEMENT PGender (#PCDATA)>
+<!ELEMENT PDescription (#PCDATA)>
+<!ELEMENT PProductDetails (#PCDATA)>
+<!ELEMENT PMaterialCare (#PCDATA)>
+<!ELEMENT FreeDelivery (#PCDATA)>
+<!ELEMENT COD (#PCDATA)>
+
+]>
+
+<tblProducts>
+  <Products>
+    <PID>1</PID>
+    <PName>samsung s8</PName>
+    <PPrice>1500.0000</PPrice>
+    <PSelPrice>1800.0000</PSelPrice>
+    <PBrandID>1</PBrandID>
+    <PCategoryID>2</PCategoryID>
+    <PSubCatID>1</PSubCatID>
+    <PGender>1</PGender>
+    <PDescription>this is  a product</PDescription>
+    <PProductDetails>this is  a product</PProductDetails>
+    <PMaterialCare>this is  a product</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+  <Products>
+    <PID>2</PID>
+    <PName>iphone</PName>
+    <PPrice>1800.0000</PPrice>
+    <PSelPrice>2000.0000</PSelPrice>
+    <PBrandID>1</PBrandID>
+    <PCategoryID>2</PCategoryID>
+    <PSubCatID>1</PSubCatID>
+    <PGender>1</PGender>
+    <PDescription>this is a product</PDescription>
+    <PProductDetails>this is a product</PProductDetails>
+    <PMaterialCare>this is a product</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+  <Products>
+    <PID>3</PID>
+    <PName>samusng S8</PName>
+    <PPrice>2200.0000</PPrice>
+    <PSelPrice>2400.0000</PSelPrice>
+    <PBrandID>1</PBrandID>
+    <PCategoryID>4</PCategoryID>
+    <PSubCatID>2</PSubCatID>
+    <PGender>3</PGender>
+    <PDescription>this is Samsung s8 edge</PDescription>
+    <PProductDetails>this is Samsung s8 edge</PProductDetails>
+    <PMaterialCare>this is Samsung s8 edge</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+  <Products>
+    <PID>4</PID>
+    <PName>T-SHIRT</PName>
+    <PPrice>50.0000</PPrice>
+    <PSelPrice>60.0000</PSelPrice>
+    <PBrandID>7</PBrandID>
+    <PCategoryID>11</PCategoryID>
+    <PSubCatID>3</PSubCatID>
+    <PGender>2</PGender>
+    <PDescription>This is a T shirt</PDescription>
+    <PProductDetails>This is a T shirt</PProductDetails>
+    <PMaterialCare>This is a T shirt</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+  <Products>
+    <PID>5</PID>
+    <PName>T-SHIRT</PName>
+    <PPrice>50.0000</PPrice>
+    <PSelPrice>60.0000</PSelPrice>
+    <PBrandID>7</PBrandID>
+    <PCategoryID>11</PCategoryID>
+    <PSubCatID>3</PSubCatID>
+    <PGender>2</PGender>
+    <PDescription>This is a T shirt</PDescription>
+    <PProductDetails>This is a T shirt</PProductDetails>
+    <PMaterialCare>This is a T shirt</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+  <Products>
+    <PID>6</PID>
+    <PName>iphone</PName>
+    <PPrice>1400.0000</PPrice>
+    <PSelPrice>1800.0000</PSelPrice>
+    <PBrandID>7</PBrandID>
+    <PCategoryID>11</PCategoryID>
+    <PSubCatID>3</PSubCatID>
+    <PGender>2</PGender>
+    <PDescription>11has  kk</PDescription>
+    <PProductDetails>bakbxkab</PProductDetails>
+    <PMaterialCare>axnka</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+  <Products>
+    <PID>7</PID>
+    <PName>hhhh</PName>
+    <PPrice>1200.0000</PPrice>
+    <PSelPrice>1600.0000</PSelPrice>
+    <PBrandID>7</PBrandID>
+    <PCategoryID>11</PCategoryID>
+    <PSubCatID>3</PSubCatID>
+    <PGender>2</PGender>
+    <PDescription>hhhhh</PDescription>
+    <PProductDetails>hhhhhhhhhhhhh</PProductDetails>
+    <PMaterialCare>hhhhhhhhhhhh</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+  <Products>
+    <PID>8</PID>
+    <PName>a</PName>
+    <PPrice>1.0000</PPrice>
+    <PSelPrice>1.0000</PSelPrice>
+    <PBrandID>7</PBrandID>
+    <PCategoryID>2</PCategoryID>
+    <PSubCatID>1</PSubCatID>
+    <PGender>1</PGender>
+    <PDescription>qq</PDescription>
+    <PProductDetails>qq</PProductDetails>
+    <PMaterialCare>ww</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+  <Products>
+    <PID>9</PID>
+    <PName>a</PName>
+    <PPrice>1.0000</PPrice>
+    <PSelPrice>1.0000</PSelPrice>
+    <PBrandID>7</PBrandID>
+    <PCategoryID>2</PCategoryID>
+    <PSubCatID>1</PSubCatID>
+    <PGender>1</PGender>
+    <PDescription>qq</PDescription>
+    <PProductDetails>qq</PProductDetails>
+    <PMaterialCare>ww</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>1</_x0033_0DayRet>
+    <COD>1</COD>
+  </Products>
+  <Products>
+    <PID>10</PID>
+    <PName>Formal shirt </PName>
+    <PPrice>50.0000</PPrice>
+    <PSelPrice>40.0000</PSelPrice>
+    <PBrandID>1</PBrandID>
+    <PCategoryID>2</PCategoryID>
+    <PSubCatID>1</PSubCatID>
+    <PGender>1</PGender>
+    <PDescription>Formal Shirt</PDescription>
+    <PProductDetails>Formal Shirt</PProductDetails>
+    <PMaterialCare>No need Care</PMaterialCare>
+    <FreeDelivery>1</FreeDelivery>
+    <_x0033_0DayRet>0</_x0033_0DayRet>
+    <COD>0</COD>
+  </Products>
+</tblProducts>

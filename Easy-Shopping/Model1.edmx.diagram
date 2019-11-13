@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e87c94f31b48465fbbf53d6e5914f7ea" Name="Diagram1">
+        <EntityTypeShape EntityType="MyDatabaseModel.ForgotPassRequest" Width="1.5" PointX="5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblBrand" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblCategory" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblGender" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblProductImage" Width="1.5" PointX="7.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblProduct" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblProductSizeQuantity" Width="1.5" PointX="10.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblPurchase" Width="1.5" PointX="5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblSize" Width="1.5" PointX="8.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.tblSubCategory" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.transaction" Width="1.5" PointX="7.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyDatabaseModel.User" Width="1.5" PointX="2.75" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="MyDatabaseModel.FK_ForgotPassRequests_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblProducts_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblSizes_ToBrand" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblProducts_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblSizes_ToCat" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblSubCategories_Cat" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblProducts_ToTable_3" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblSizes_ToGender" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblProductImages_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblProducts_ToTable_2" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblProductSizeQuantity_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblProductSizeQuantity_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblPurchase_ToUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_transactions_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="MyDatabaseModel.FK_tblSizes_ToSubCat" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

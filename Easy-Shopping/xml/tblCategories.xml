@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<tblCategories>
+  <Categories>
+    <CatID>2</CatID>
+    <CatName>clothing</CatName>
+  </Categories>
+  <Categories>
+    <CatID>4</CatID>
+    <CatName>Samsung Edge</CatName>
+  </Categories>
+  <Categories>
+    <CatID>11</CatID>
+    <CatName>Fashion</CatName>
+  </Categories>
+  <Categories>
+    <CatID>12</CatID>
+    <CatName>Mobile</CatName>
+  </Categories>
+</tblCategories>
